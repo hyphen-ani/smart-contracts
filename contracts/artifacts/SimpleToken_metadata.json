@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "maxPerMint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/require.sol": "SimpleToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/require.sol": {
+			"keccak256": "0x86893e2e77953c2b0ee98058fbaf978dfad9a2019ffde7a629dc09beb5a6cf5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d1a13df8fe2451bf7e098177967fd3690c3083932df442094f64c6497747d4b",
+				"dweb:/ipfs/QmZ45BJ3DyABimAYrnCvnFwipsSQNLtmyCzyUaXjJC2UYz"
+			]
+		}
+	},
+	"version": 1
+}
